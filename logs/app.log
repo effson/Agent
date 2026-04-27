@@ -1,0 +1,588 @@
+2026-04-21 23:28:17.080 | INFO     | __main__:build:8 - Building...
+2026-04-21 23:28:35.282 | INFO     | __main__:build:5 - Building...
+2026-04-21 23:30:15.986 | INFO     | __main__:build:5 - Building...
+2026-04-21 23:56:20.787 | INFO     | __main__:build:6 - Building...
+2026-04-21 23:59:43.440 | INFO     | __main__:build:8 - Building...
+2026-04-22 23:16:17.156 | INFO     | app.services.meta_repository_service:build:209 - 加载配置文件成功！
+2026-04-22 23:16:17.360 | INFO     | app.services.meta_repository_service:build:214 - 表、字段信息保存到meta数据库成功！
+2026-04-22 23:16:33.117 | INFO     | app.services.meta_repository_service:build:218 - 向量索引保存至qdrant成功！
+2026-04-22 23:16:33.776 | INFO     | app.services.meta_repository_service:build:222 - 指定维度字段的取值建立全文索引成功！
+2026-04-23 00:42:28.860 | INFO     | app.services.meta_repository_service:build:209 - 加载配置文件成功！
+2026-04-23 00:42:28.946 | INFO     | app.services.meta_repository_service:build:214 - 表、字段信息保存到meta数据库成功！
+2026-04-23 00:42:44.463 | INFO     | app.services.meta_repository_service:build:218 - 向量索引保存至qdrant成功！
+2026-04-23 00:42:45.322 | INFO     | app.services.meta_repository_service:build:222 - 指定维度字段的取值建立全文索引成功！
+2026-04-23 00:42:45.343 | INFO     | app.services.meta_repository_service:build:227 - metric_info保存到meta数据库成功！
+2026-04-23 00:42:46.123 | INFO     | app.services.meta_repository_service:build:230 - metric_info保存到qdrant成功！
+2026-04-24 19:27:46.842 | INFO     | app.services.meta_repository_service:build:217 - 加载配置文件成功！
+2026-04-24 19:27:46.967 | INFO     | app.services.meta_repository_service:build:222 - 表、字段信息保存到meta数据库成功！
+2026-04-24 19:28:03.133 | INFO     | app.services.meta_repository_service:build:226 - 向量索引保存至qdrant成功！
+2026-04-24 19:28:03.638 | INFO     | app.services.meta_repository_service:build:230 - 指定维度字段的取值建立全文索引成功！
+2026-04-24 19:28:03.670 | INFO     | app.services.meta_repository_service:build:235 - metric_info保存到meta数据库成功！
+2026-04-24 19:28:04.440 | INFO     | app.services.meta_repository_service:build:238 - metric_info保存到qdrant成功！
+2026-04-24 19:49:43.137 | INFO     | app.services.meta_repository_service:build:218 - 加载配置文件成功！
+2026-04-24 19:49:43.230 | INFO     | app.services.meta_repository_service:build:223 - 表、字段信息保存到meta数据库成功！
+2026-04-24 19:49:43.494 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.494 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.494 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.495 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.495 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.495 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.495 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(10)
+2026-04-24 19:49:43.496 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.496 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.496 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(200)
+2026-04-24 19:49:43.496 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.497 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(50)
+2026-04-24 19:49:43.497 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(2)
+2026-04-24 19:49:43.497 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(30)
+2026-04-24 19:49:43.498 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.499 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:43.499 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:99 - embed类型： varchar(20)
+2026-04-24 19:49:59.338 | INFO     | app.services.meta_repository_service:build:227 - 向量索引保存至qdrant成功！
+2026-04-24 19:49:59.731 | INFO     | app.services.meta_repository_service:build:231 - 指定维度字段的取值建立全文索引成功！
+2026-04-24 19:49:59.746 | INFO     | app.services.meta_repository_service:build:236 - metric_info保存到meta数据库成功！
+2026-04-24 19:50:00.662 | INFO     | app.services.meta_repository_service:build:239 - metric_info保存到qdrant成功！
+2026-04-24 20:23:26.895 | INFO     | app.services.meta_repository_service:build:219 - 加载配置文件成功！
+2026-04-24 20:23:27.017 | INFO     | app.services.meta_repository_service:build:224 - 表、字段信息保存到meta数据库成功！
+2026-04-24 20:23:27.418 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.418 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.418 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.419 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.419 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.419 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.419 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.419 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.420 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.420 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.420 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.421 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.421 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.421 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.421 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.421 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.422 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.422 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.422 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.422 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.423 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.424 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.424 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.424 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.424 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.424 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.425 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.426 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.427 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.428 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.429 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.430 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.431 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.431 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.431 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.431 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.431 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.432 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.433 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.434 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.435 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.435 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.435 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.435 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.436 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.436 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.436 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.436 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.436 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.437 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.437 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.437 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.437 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.437 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.438 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.438 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.438 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.438 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.438 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.439 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.439 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.439 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.439 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.439 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.440 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.440 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.440 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.440 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.440 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.441 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.441 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.441 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.442 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.442 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.442 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.442 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.442 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.443 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.444 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.444 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.444 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.444 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.445 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.446 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.447 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.447 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.447 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.447 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.447 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.448 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.448 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.448 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.448 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.448 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.449 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.450 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.451 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.451 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.451 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.451 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.451 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.452 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.452 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.452 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.452 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.453 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.454 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.454 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.454 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.454 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.455 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.455 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.455 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.455 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.455 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.456 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.457 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.457 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.457 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.458 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.458 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.458 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.458 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.458 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.459 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.460 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.460 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.460 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.460 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.460 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.461 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.461 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.461 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.461 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.461 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.462 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.463 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.464 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.464 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.464 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.464 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.465 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.465 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.465 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.466 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.466 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.466 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.466 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.466 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.467 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.468 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.468 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.468 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.468 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.469 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.469 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.469 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.470 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.470 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.470 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.470 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.470 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.471 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.471 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.471 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.471 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.472 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.472 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.472 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.472 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.472 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.473 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.473 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.473 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.473 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.474 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.474 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.474 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.474 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.474 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.475 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:101 - embed类型： <class 'str'>
+2026-04-24 20:23:27.475 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.475 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.475 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.475 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.476 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.476 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.476 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.476 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:80 - embed类型： <class 'str'>
+2026-04-24 20:23:27.476 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:86 - embed类型： <class 'str'>
+2026-04-24 20:23:27.477 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.477 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:27.477 | INFO     | app.services.meta_repository_service:_save_column_info_to_qdrant:109 - embed类型： <class 'str'>
+2026-04-24 20:23:43.840 | INFO     | app.services.meta_repository_service:build:228 - 向量索引保存至qdrant成功！
+2026-04-24 20:23:44.528 | INFO     | app.services.meta_repository_service:build:232 - 指定维度字段的取值建立全文索引成功！
+2026-04-24 20:23:44.557 | INFO     | app.services.meta_repository_service:build:237 - metric_info保存到meta数据库成功！
+2026-04-24 20:23:45.474 | INFO     | app.services.meta_repository_service:build:240 - metric_info保存到qdrant成功！
+2026-04-24 22:08:07.585 | INFO     | app.services.meta_repository_service:build:222 - 加载配置文件成功！
+2026-04-24 22:08:07.720 | INFO     | app.services.meta_repository_service:build:227 - 表、字段信息保存到meta数据库成功！
+2026-04-24 22:08:24.182 | INFO     | app.services.meta_repository_service:build:231 - 向量索引保存至qdrant成功！
+2026-04-24 22:08:24.793 | INFO     | app.services.meta_repository_service:build:235 - 指定维度字段的取值建立全文索引成功！
+2026-04-24 22:08:24.852 | INFO     | app.services.meta_repository_service:build:240 - metric_info保存到meta数据库成功！
+2026-04-24 22:08:25.692 | INFO     | app.services.meta_repository_service:build:243 - metric_info保存到qdrant成功！
+2026-04-24 22:27:08.533 | INFO     | app.services.meta_repository_service:build:222 - 加载配置文件成功！
+2026-04-24 23:35:28.031 | INFO     | app.services.meta_repository_service:build:250 - 加载配置文件成功！
+2026-04-24 23:35:28.152 | INFO     | app.services.meta_repository_service:build:255 - 表、字段信息保存到meta数据库成功！
+2026-04-24 23:35:35.918 | INFO     | app.services.meta_repository_service:build:259 - 向量索引保存至qdrant成功！
+2026-04-24 23:39:50.616 | INFO     | app.services.meta_repository_service:build:250 - 加载配置文件成功！
+2026-04-24 23:39:50.825 | INFO     | app.services.meta_repository_service:build:255 - 表、字段信息保存到meta数据库成功！
+2026-04-24 23:39:57.926 | INFO     | app.services.meta_repository_service:build:259 - 向量索引保存至qdrant成功！
+2026-04-24 23:40:10.257 | INFO     | app.services.meta_repository_service:build:263 - 字段取值信息保存至qdrant成功！
+2026-04-24 23:40:10.918 | INFO     | app.services.meta_repository_service:build:267 - 指定维度字段的取值建立全文索引成功！
+2026-04-24 23:40:10.945 | INFO     | app.services.meta_repository_service:build:272 - metric_info保存到meta数据库成功！
+2026-04-24 23:40:11.887 | INFO     | app.services.meta_repository_service:build:275 - metric_info保存到qdrant成功！
+2026-04-26 16:04:39.225 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['查询', '地区', '查询各地区的销售额', '销售额']
+2026-04-26 16:04:42.533 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_value:recall_value:36 - keywords: ['销售额', '查询', '地区', '查询各地区的销售额']
+2026-04-26 16:04:44.269 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['销售额', '查询', '地区', '查询各地区的销售额']
+2026-04-26 16:04:47.957 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 16:04:48.045 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id']
+2026-04-26 16:04:48.106 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: []
+2026-04-26 16:04:48.106 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: []
+2026-04-26 16:04:48.653 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV', 'AOV']
+2026-04-26 16:04:48.734 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['fact_order', 'dim_region', 'dim_date'],指标信息-['GMV', 'AOV']
+2026-04-26 16:04:49.947 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: ['GMV']
+2026-04-26 16:04:51.576 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-04-26 16:04:51.576 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['order_amount', 'region_id', 'region_name', 'region_id']
+2026-04-26 16:04:51.602 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 16:04:53.703 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT r.region_name AS 地区, SUM(o.order_amount) AS 销售额 FROM fact_order o JOIN dim_region r ON o.region_id = r.region_id GROUP BY r.region_name ORDER BY 销售额 DESC
+2026-04-26 16:04:53.725 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.validate_sql:validate_sql:19 - SQL语法正确
+2026-04-26 16:04:53.737 | INFO     | request_id - 8cf201a9-1bd6-48d0-b727-9f9136a7b62d | app.agent.nodes.execute_sql:execute_sql:19 - SQL执行结果：[{'地区': '华东', '销售额': 107373.0}, {'地区': '华南', '销售额': 70202.0}, {'地区': '华北', '销售额': 41099.5}, {'地区': '西南', '销售额': 31528.0}, {'地区': '华中', '销售额': 28957.0}]
+2026-04-26 16:17:00.557 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['产品', '排行', '统计', '地区', '统计各地区排行前三的产品']
+2026-04-26 16:17:02.637 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['销售量或销售额', '产品', '排行', '统计', '地区', '产品名称', '统计各地区排行前三的产品']
+2026-04-26 16:17:02.760 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_value:recall_value:36 - keywords: ['销售量或销售额', '产品', '排行', '统计', '地区', '产品名称', '统计各地区排行前三的产品']
+2026-04-26 16:17:03.585 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['fact_order.order_amount', 'fact_order.order_quantity', 'dim_product.product_name', 'dim_product.category', 'dim_product.brand', 'fact_order.product_id', 'dim_product.product_id', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'dim_customer.customer_name']
+2026-04-26 16:17:03.665 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 16:17:03.718 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: ['dim_product.brand.三星']
+2026-04-26 16:17:03.718 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: ['dim_product.brand.三星']
+2026-04-26 16:17:06.190 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV', 'AOV']
+2026-04-26 16:17:06.205 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_region', 'dim_date', 'dim_customer'],指标信息-['GMV', 'AOV']
+2026-04-26 16:17:07.494 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: ['GMV']
+2026-04-26 16:17:08.790 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['fact_order', 'dim_product', 'dim_region']
+2026-04-26 16:17:08.790 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['order_amount', 'product_id', 'region_id', 'product_name', 'product_id', 'region_name', 'region_id']
+2026-04-26 16:17:08.790 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 16:17:12.957 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT
+  r.region_name,
+  p.product_name,
+  SUM(f.order_amount) AS GMV,
+  RANK() OVER (PARTITION BY r.region_name ORDER BY SUM(f.order_amount) DESC) AS rk
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY r.region_name, p.product_name
+HAVING rk <= 3
+ORDER BY r.region_name, rk
+2026-04-26 16:17:12.970 | INFO     | request_id - 25bd940a-2f50-465a-a4ae-923e42358a9d | app.agent.nodes.validate_sql:validate_sql:23 - SQL语法错误：(asyncmy.errors.OperationalError) (3594, "You cannot use the alias 'rk' of an expression containing a window function in this context.'")
+[SQL: explain SELECT
+  r.region_name,
+  p.product_name,
+  SUM(f.order_amount) AS GMV,
+  RANK() OVER (PARTITION BY r.region_name ORDER BY SUM(f.order_amount) DESC) AS rk
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY r.region_name, p.product_name
+HAVING rk <= 3
+ORDER BY r.region_name, rk]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-04-26 16:18:11.966 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品']
+2026-04-26 16:18:15.450 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品', '产品名称']
+2026-04-26 16:18:15.844 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_value:recall_value:36 - keywords: ['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品', '产品名称']
+2026-04-26 16:18:16.486 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['fact_order.order_quantity', 'fact_order.order_amount', 'dim_product.product_name', 'dim_product.brand', 'dim_product.category', 'fact_order.product_id', 'dim_product.product_id', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'dim_customer.customer_name']
+2026-04-26 16:18:16.595 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV']
+2026-04-26 16:18:16.827 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 16:18:16.860 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: ['dim_product.brand.三星']
+2026-04-26 16:18:16.860 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: ['dim_product.brand.三星']
+2026-04-26 16:18:16.875 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_region', 'dim_date', 'dim_customer'],指标信息-['GMV']
+2026-04-26 16:18:18.524 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: []
+2026-04-26 16:18:19.047 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['fact_order', 'dim_product', 'dim_region']
+2026-04-26 16:18:19.048 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['order_quantity', 'product_id', 'region_id', 'product_name', 'product_id', 'region_name', 'region_id']
+2026-04-26 16:18:19.052 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 16:18:25.978 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT
+  r.region_name,
+  p.product_name,
+  SUM(f.order_quantity) AS total_quantity
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY r.region_name, p.product_name
+HAVING (
+  SELECT COUNT(DISTINCT p2.product_id)
+  FROM fact_order f2
+  JOIN dim_product p2 ON f2.product_id = p2.product_id
+  WHERE f2.region_id = f.region_id
+    AND SUM(f2.order_quantity) > total_quantity
+) < 3
+ORDER BY r.region_name, total_quantity DESC
+
+Wait, the HAVING clause above is incorrect because you can't use a correlated subquery referencing the outer GROUP BY like that easily. Let me use a proper window function approach instead.
+
+SELECT region_name, product_name, total_quantity
+FROM (
+  SELECT
+    r.region_name,
+    p.product_name,
+    SUM(f.order_quantity) AS total_quantity,
+    ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(f.order_quantity) DESC) AS rn
+  FROM fact_order f
+  JOIN dim_region r ON f.region_id = r.region_id
+  JOIN dim_product p ON f.product_id = p.product_id
+  GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+) t
+WHERE rn <= 3
+ORDER BY region_name, total_quantity DESC
+2026-04-26 16:18:25.984 | INFO     | request_id - 7f65cd87-770b-4cd2-841a-ba6a7224af9a | app.agent.nodes.validate_sql:validate_sql:23 - SQL语法错误：(asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Wait, the HAVING clause above is incorrect because you can't use a correlated su' at line 18")
+[SQL: explain SELECT
+  r.region_name,
+  p.product_name,
+  SUM(f.order_quantity) AS total_quantity
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY r.region_name, p.product_name
+HAVING (
+  SELECT COUNT(DISTINCT p2.product_id)
+  FROM fact_order f2
+  JOIN dim_product p2 ON f2.product_id = p2.product_id
+  WHERE f2.region_id = f.region_id
+    AND SUM(f2.order_quantity) > total_quantity
+) < 3
+ORDER BY r.region_name, total_quantity DESC
+
+Wait, the HAVING clause above is incorrect because you can't use a correlated subquery referencing the outer GROUP BY like that easily. Let me use a proper window function approach instead.
+
+SELECT region_name, product_name, total_quantity
+FROM (
+  SELECT
+    r.region_name,
+    p.product_name,
+    SUM(f.order_quantity) AS total_quantity,
+    ROW_NUMBER() OVER (PARTITION BY r.region_id ORDER BY SUM(f.order_quantity) DESC) AS rn
+  FROM fact_order f
+  JOIN dim_region r ON f.region_id = r.region_id
+  JOIN dim_product p ON f.product_id = p.product_id
+  GROUP BY r.region_id, r.region_name, p.product_id, p.product_name
+) t
+WHERE rn <= 3
+ORDER BY region_name, total_quantity DESC]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-26 16:32:27.811 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品']
+2026-04-26 16:32:30.158 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_value:recall_value:36 - keywords: ['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品', '产品名称']
+2026-04-26 16:32:30.793 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 16:32:30.836 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: ['dim_product.brand.三星']
+2026-04-26 16:32:30.836 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: ['dim_product.brand.三星']
+2026-04-26 16:32:30.896 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['销量', '产品', '排行', '统计', '地区', '统计各地区销量排行前三的产品', '产品名称']
+2026-04-26 16:32:31.808 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['fact_order.order_quantity', 'fact_order.order_amount', 'dim_product.product_name', 'dim_product.brand', 'dim_product.category', 'fact_order.product_id', 'dim_product.product_id', 'dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'dim_customer.customer_name']
+2026-04-26 16:32:32.114 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV']
+2026-04-26 16:32:32.126 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['fact_order', 'dim_product', 'dim_region', 'dim_date', 'dim_customer'],指标信息-['GMV']
+2026-04-26 16:32:33.864 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: []
+2026-04-26 16:32:34.660 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['fact_order', 'dim_product', 'dim_region']
+2026-04-26 16:32:34.661 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['order_quantity', 'product_id', 'region_id', 'product_name', 'product_id', 'region_name', 'region_id']
+2026-04-26 16:32:34.665 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 16:32:37.555 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT region_name, product_name, total_quantity, rk
+FROM (
+    SELECT r.region_name,
+           p.product_name,
+           SUM(f.order_quantity) AS total_quantity,
+           ROW_NUMBER() OVER (PARTITION BY r.region_name ORDER BY SUM(f.order_quantity) DESC) AS rk
+    FROM fact_order f
+    JOIN dim_region r ON f.region_id = r.region_id
+    JOIN dim_product p ON f.product_id = p.product_id
+    GROUP BY r.region_name, p.product_name
+) t
+WHERE rk <= 3
+ORDER BY region_name, rk;
+2026-04-26 16:32:37.565 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.validate_sql:validate_sql:19 - SQL语法正确
+2026-04-26 16:32:37.571 | INFO     | request_id - 0b5c3f8d-96d8-4274-98d0-851b7fd48001 | app.agent.nodes.execute_sql:execute_sql:19 - SQL执行结果：[{'region_name': '华东', 'product_name': '奥利奥巧克力夹心饼干', 'total_quantity': Decimal('100'), 'rk': 1}, {'region_name': '华东', 'product_name': '蒙牛纯牛奶 250ml*12', 'total_quantity': Decimal('45'), 'rk': 2}, {'region_name': '华东', 'product_name': '乐事原味薯片 150g', 'total_quantity': Decimal('35'), 'rk': 3}, {'region_name': '华中', 'product_name': '蒙牛纯牛奶 250ml*12', 'total_quantity': Decimal('48'), 'rk': 1}, {'region_name': '华中', 'product_name': '乐事原味薯片 150g', 'total_quantity': Decimal('20'), 'rk': 2}, {'region_name': '华中', 'product_name': '雀巢金牌速溶咖啡', 'total_quantity': Decimal('5'), 'rk': 3}, {'region_name': '华北', 'product_name': '乐事原味薯片 150g', 'total_quantity': Decimal('27'), 'rk': 1}, {'region_name': '华北', 'product_name': '蒙牛纯牛奶 250ml*12', 'total_quantity': Decimal('24'), 'rk': 2}, {'region_name': '华北', 'product_name': '雀巢金牌速溶咖啡', 'total_quantity': Decimal('9'), 'rk': 3}, {'region_name': '华南', 'product_name': '奥利奥巧克力夹心饼干', 'total_quantity': Decimal('48'), 'rk': 1}, {'region_name': '华南', 'product_name': '乐事原味薯片 150g', 'total_quantity': Decimal('40'), 'rk': 2}, {'region_name': '华南', 'product_name': '雀巢金牌速溶咖啡', 'total_quantity': Decimal('16'), 'rk': 3}, {'region_name': '西南', 'product_name': '蒙牛纯牛奶 250ml*12', 'total_quantity': Decimal('56'), 'rk': 1}, {'region_name': '西南', 'product_name': '奥利奥巧克力夹心饼干', 'total_quantity': Decimal('10'), 'rk': 2}, {'region_name': '西南', 'product_name': '乐事原味薯片 150g', 'total_quantity': Decimal('9'), 'rk': 3}]
+2026-04-26 16:55:30.007 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['手机', '查询哪个品牌的手机销量最好', '销量', '品牌', '最好', '查询']
+2026-04-26 16:55:34.365 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['手机', '查询哪个品牌的手机销量最好', '销量', '品牌', '最好', '商品类别', '查询']
+2026-04-26 16:55:36.830 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['dim_date.date_id', 'fact_order.date_id', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_product.brand', 'dim_product.category', 'dim_product.product_name', 'dim_product.product_id', 'fact_order.product_id']
+2026-04-26 16:55:37.259 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_value:recall_value:36 - keywords: ['手机', '查询哪个品牌的手机销量最好', '销量', '品牌', '最好', '商品类别', '查询']
+2026-04-26 16:55:37.308 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV', 'AOV']
+2026-04-26 16:55:37.862 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 16:55:37.895 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: ['dim_product.category.手机数码']
+2026-04-26 16:55:37.895 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: ['dim_product.category.手机数码']
+2026-04-26 16:55:37.927 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['dim_date', 'fact_order', 'dim_product'],指标信息-['GMV', 'AOV']
+2026-04-26 16:55:40.493 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: []
+2026-04-26 16:55:40.933 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['fact_order', 'dim_product']
+2026-04-26 16:55:40.933 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['order_quantity', 'product_id', 'brand', 'category', 'product_id']
+2026-04-26 16:55:40.972 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 16:55:42.881 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT p.brand, SUM(o.order_quantity) AS total_sales
+FROM fact_order o
+JOIN dim_product p ON o.product_id = p.product_id
+WHERE p.category = '手机数码'
+GROUP BY p.brand
+ORDER BY total_sales DESC
+LIMIT 1
+2026-04-26 16:55:42.889 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.validate_sql:validate_sql:19 - SQL语法正确
+2026-04-26 16:55:42.893 | INFO     | request_id - f8f470b5-1666-44ca-a1e9-09ccaef1b9f1 | app.agent.nodes.execute_sql:execute_sql:19 - SQL执行结果：[{'brand': '苹果', 'total_sales': Decimal('8')}]
+2026-04-26 17:03:43.726 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.extract_keywords:extract_keywords:36 - 抽取关键词:['地区', '查询各地区销量排行第一的产品类别', '销量', '排行', '产品类别', '查询']
+2026-04-26 17:03:45.805 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_value:recall_value:36 - keywords: ['地区', '查询各地区销量排行第一的产品类别', '销量', '排行', '产品类别', '查询']
+2026-04-26 17:03:46.348 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_value:recall_value:51 - qdrant检索到字段取值: []
+2026-04-26 17:03:46.370 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_value:recall_value:58 - es检索到字段取值: []
+2026-04-26 17:03:46.370 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_value:recall_value:63 - 合并后的字段取值: []
+2026-04-26 17:03:46.904 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_column:recall_column:35 - 召回字段信息扩展关键词：['地区', '查询各地区销量排行第一的产品类别', '销量', '排行', '产品类别', '查询']
+2026-04-26 17:03:47.446 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_column:recall_column:47 - 检索到字段信息: ['dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.region_id', 'dim_region.region_id', 'dim_date.year', 'dim_date.month', 'dim_date.date_id', 'fact_order.date_id', 'dim_product.category', 'fact_order.order_quantity', 'fact_order.order_amount', 'dim_product.product_name', 'dim_product.product_id', 'fact_order.product_id', 'dim_product.brand']
+2026-04-26 17:03:48.368 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.recall_metric:recall_metric:43 - 检索到指标信息: ['GMV']
+2026-04-26 17:03:48.382 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.merge_retrieved:merge_retrieved:90 - 合并召回信息: 表信息-['dim_region', 'fact_order', 'dim_date', 'dim_product'],指标信息-['GMV']
+2026-04-26 17:03:50.417 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.filter_metric:filter_metric:30 - 过滤后的指标信息: []
+2026-04-26 17:03:52.172 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.filter_table:filter_table:47 - 过滤后的表信息：['dim_region', 'fact_order', 'dim_product']
+2026-04-26 17:03:52.177 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.filter_table:filter_table:48 - 过滤后的字段信息：['region_name', 'region_id', 'region_id', 'order_quantity', 'product_id', 'category', 'product_id']
+2026-04-26 17:03:52.187 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.add_extra_context:add_extra_context:27 - 额外上下文信息：数据库信息-{'dialect': 'mysql', 'version': '8.0.46'} 日期信息-{'date': '2026-04-26', 'weekday': 'Sunday', 'quarter': 'Q2'}
+2026-04-26 17:03:55.640 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.generate_sql:generate_sql:39 - 生成的SQL:SELECT r.region_name, p.category, SUM(f.order_quantity) AS total_quantity
+FROM fact_order f
+JOIN dim_region r ON f.region_id = r.region_id
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY r.region_name, p.category
+HAVING (r.region_name, SUM(f.order_quantity)) IN (
+    SELECT t.region_name, MAX(t.total_quantity)
+    FROM (
+        SELECT r2.region_name, p2.category, SUM(f2.order_quantity) AS total_quantity
+        FROM fact_order f2
+        JOIN dim_region r2 ON f2.region_id = r2.region_id
+        JOIN dim_product p2 ON f2.product_id = p2.product_id
+        GROUP BY r2.region_name, p2.category
+    ) t
+    GROUP BY t.region_name
+)
+ORDER BY total_quantity DESC
+2026-04-26 17:03:55.657 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.validate_sql:validate_sql:19 - SQL语法正确
+2026-04-26 17:03:55.664 | INFO     | request_id - 8e6ec6d2-969d-4a44-9145-eb8f61aa39ca | app.agent.nodes.execute_sql:execute_sql:19 - SQL执行结果：[{'region_name': '华东', 'category': '休闲零食', 'total_quantity': Decimal('135')}, {'region_name': '华南', 'category': '休闲零食', 'total_quantity': Decimal('88')}, {'region_name': '西南', 'category': '食品饮料', 'total_quantity': Decimal('63')}, {'region_name': '华中', 'category': '食品饮料', 'total_quantity': Decimal('53')}, {'region_name': '华北', 'category': '休闲零食', 'total_quantity': Decimal('36')}]
