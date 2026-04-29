@@ -5,8 +5,11 @@ from langgraph.runtime import Runtime
 from app.agent.context import DataAgentContext
 from app.agent.state import DataAgentState
 from app.core.log import logger
+from langsmith import traceable
+from dotenv import load_dotenv
+load_dotenv()
 
-
+@traceable
 async def extract_keywords(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "抽取关键字", "status": "running"})
