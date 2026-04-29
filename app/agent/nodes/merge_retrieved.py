@@ -11,8 +11,11 @@ from app.entities.value_info import ValueInfo
 from app.repositories.mysql.meta import meta_mysql_repository
 from app.repositories.mysql.meta.meta_mysql_repository import MetaMySQLRepository
 from app.core.log import logger
+from langsmith import traceable
+from dotenv import load_dotenv
+load_dotenv()
 
-
+@traceable
 async def merge_retrieved(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "合并召回信息", "status": "running"})
