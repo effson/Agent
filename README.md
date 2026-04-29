@@ -13,3 +13,6 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 <img width="765" height="546" alt="image" src="https://github.com/user-attachments/assets/940be7bd-74e2-4f89-a2fe-6066c8045095" />
 
 <img width="686" height="531" alt="image" src="https://github.com/user-attachments/assets/ebf6512a-ef54-4852-a4c3-8a5ebebafcfb" />
+
+
+<img width="679" height="557" alt="image" src="https://github.com/user-attachments/assets/054a7688-1eaf-479e-8f39-6a26abcef78f" />
