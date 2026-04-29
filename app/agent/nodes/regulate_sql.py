@@ -1,5 +1,6 @@
 from langgraph.runtime import Runtime
 import yaml
+from langsmith import traceable
 
 from app.agent.context import DataAgentContext
 from app.agent.state import DataAgentState
@@ -8,7 +9,11 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from app.agent.llm import llm
 from app.core.log import logger
+from dotenv import load_dotenv
+load_dotenv()
 
+
+@traceable(run_type="chain", name="regulate_sql")
 async def regulate_sql(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "校正SQL", "status": "running"})
