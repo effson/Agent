@@ -6,11 +6,15 @@ from app.agent.context import DataAgentContext
 from app.agent.state import DataAgentState
 from app.entities.column_info import ColumnInfo
 from app.repositories.qdrant.column_qdrant_repository import ColumnQdrantRepository
+from langsmith import traceable
 
 from app.agent.llm import llm
 from app.prompt.prompt_loader import load_prompt
 from app.core.log import logger
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable(run_type="chain", name="recall_column")
 async def recall_column(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "召回字段", "status": "running"})
