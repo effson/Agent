@@ -11,7 +11,11 @@ from app.agent.llm import llm
 
 from app.prompt.prompt_loader import load_prompt
 from app.core.log import logger
+from langsmith import traceable
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable(run_type="chain", name="generate_sql")
 async def generate_sql(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "生成SQL", "status": "running"})
