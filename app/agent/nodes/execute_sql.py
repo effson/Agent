@@ -1,9 +1,12 @@
 from langgraph.runtime import Runtime
-
+from langsmith import traceable
 from app.agent.context import DataAgentContext
 from app.agent.state import DataAgentState
 from app.core.log import logger
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable
 async def execute_sql(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "执行SQL", "status": "running"})
