@@ -33,3 +33,5 @@ LANGSMITH_PROJECT="Data Agent"
 ```
 
 <img width="1095" height="325" alt="image" src="https://github.com/user-attachments/assets/2b3f9f25-032e-4fb2-9cfc-5c9c8747fec9" />
+
+<img width="1269" height="562" alt="image" src="https://github.com/user-attachments/assets/31fc4814-a964-47bf-8b6d-198810b90aed" />
