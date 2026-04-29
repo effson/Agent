@@ -7,3 +7,9 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 ### 2.项目架构
 - 数据仓库元数据是核心，MySQL存储结构化元数据信息
 - Qdrant构建语义向量索引，Elasticsearch 构建全文索引，构建元数据知识库
+
+### 3.项目运行
+
+<img width="765" height="546" alt="image" src="https://github.com/user-attachments/assets/940be7bd-74e2-4f89-a2fe-6066c8045095" />
+
+<img width="686" height="531" alt="image" src="https://github.com/user-attachments/assets/ebf6512a-ef54-4852-a4c3-8a5ebebafcfb" />
