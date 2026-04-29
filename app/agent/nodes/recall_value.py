@@ -28,7 +28,7 @@ async def recall_value(state: DataAgentState, runtime: Runtime[DataAgentContext]
     es_value_repository = runtime.context["Es_value_repository"]
 
     try:
-        prompt = PromptTemplate(template=load_prompt("extend_keywords_for_column_recall"), input_variables=["query"])
+        prompt = PromptTemplate(template=load_prompt("extend_keywords_for_value_recall"), input_variables=["query"])
 
         output_parser = JsonOutputParser()
         es_value_chain = prompt | llm | output_parser
