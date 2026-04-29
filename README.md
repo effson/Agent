@@ -10,7 +10,7 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 
 ### 3. Langgraph工作流
 
-<img width="1522" height="1834" alt="Mermaid" src="https://github.com/user-attachments/assets/df4438a6-4cda-4202-b032-5332dd9101f9" />
+<img width="500" height="600" alt="Mermaid" src="https://github.com/user-attachments/assets/df4438a6-4cda-4202-b032-5332dd9101f9" />
 
 ### 4.项目运行
 
