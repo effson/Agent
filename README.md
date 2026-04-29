@@ -22,7 +22,7 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 
 <img width="600" height="531" alt="image" src="https://github.com/user-attachments/assets/62becf2e-a6ed-4467-be1c-7b0eefd186d8" />
 
-<img width="656" height="511" alt="image" src="https://github.com/user-attachments/assets/cc2888d7-6cb4-4752-8cd3-671ec38ab8ac" />
+<img width="636" height="511" alt="image" src="https://github.com/user-attachments/assets/cc2888d7-6cb4-4752-8cd3-671ec38ab8ac" />
 
 ### 5. LangSmith
 
