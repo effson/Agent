@@ -7,9 +7,13 @@ from app.agent.state import DataAgentState
 from app.agent.llm import llm
 from app.prompt.prompt_loader import load_prompt
 from app.entities.metric_info import MetricInfo
+from langsmith import traceable
 
 from app.core.log import logger
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable(run_type="chain", name="recall_metric")
 async def recall_metric(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "召回指标", "status": "running"})
