@@ -31,3 +31,5 @@ LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 LANGSMITH_API_KEY=<your_langsmith_key>
 LANGSMITH_PROJECT="Data Agent"
 ```
+
+<img width="1095" height="325" alt="image" src="https://github.com/user-attachments/assets/2b3f9f25-032e-4fb2-9cfc-5c9c8747fec9" />
