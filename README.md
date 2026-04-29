@@ -22,3 +22,11 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 
 
 ### 4. LangSmith
+
+#### 在.env中添加：
+```
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=<your_langsmith_key>
+LANGSMITH_PROJECT="Data Agent"
+```
