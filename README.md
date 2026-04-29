@@ -13,14 +13,19 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 <img width="500" height="600" alt="Mermaid" src="https://github.com/user-attachments/assets/df4438a6-4cda-4202-b032-5332dd9101f9" />
 
 ### 4.项目运行
+#### query 1
 
 <img width="686" height="531" alt="image" src="https://github.com/user-attachments/assets/ebf6512a-ef54-4852-a4c3-8a5ebebafcfb" />
 
+#### query 2
 
 <img width="686" height="531" alt="image" src="https://github.com/user-attachments/assets/054a7688-1eaf-479e-8f39-6a26abcef78f" />
 
+#### query 3
 
 <img width="500" height="531" alt="image" src="https://github.com/user-attachments/assets/62becf2e-a6ed-4467-be1c-7b0eefd186d8" />
+
+#### query 4
 
 <img width="656" height="450" alt="image" src="https://github.com/user-attachments/assets/cc2888d7-6cb4-4752-8cd3-671ec38ab8ac" />
 
