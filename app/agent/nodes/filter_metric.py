@@ -8,7 +8,11 @@ from app.prompt.prompt_loader import load_prompt
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from app.core.log import logger
+from langsmith import traceable
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable(run_type="chain", name="filter_metric")
 async def filter_metric(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "过滤指标", "status": "running"})
