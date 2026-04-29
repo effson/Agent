@@ -8,7 +8,11 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 - 数据仓库元数据是核心，MySQL存储结构化元数据信息
 - Qdrant构建语义向量索引，Elasticsearch 构建全文索引，构建元数据知识库
 
-### 3.项目运行
+### 3. Langgraph工作流
+
+<img width="1522" height="1834" alt="Mermaid" src="https://github.com/user-attachments/assets/df4438a6-4cda-4202-b032-5332dd9101f9" />
+
+### 4.项目运行
 
 <img width="765" height="546" alt="image" src="https://github.com/user-attachments/assets/940be7bd-74e2-4f89-a2fe-6066c8045095" />
 
@@ -22,7 +26,7 @@ Data Agent 是一个基于自然语言处理与数据分析技术的智能数据
 
 <img width="530" height="362" alt="image" src="https://github.com/user-attachments/assets/cc2888d7-6cb4-4752-8cd3-671ec38ab8ac" />
 
-### 4. LangSmith
+### 5. LangSmith
 
 #### 在.env中添加：
 ```
