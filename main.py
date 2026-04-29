@@ -4,6 +4,10 @@ from fastapi import FastAPI, Request
 from app.api.routers.query_router import query_router
 from app.core.lifespan import lifespan
 from app.core.context import request_id_ctx_var
+
+from dotenv import load_dotenv
+load_dotenv()
+
 app = FastAPI(lifespan=lifespan)
 app.include_router(query_router)
 
