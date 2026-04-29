@@ -1,5 +1,5 @@
 from langgraph.runtime import Runtime
-
+from langsmith import traceable
 from app.agent.context import DataAgentContext
 from app.agent.state import DataAgentState
 from app.agent.llm import llm
@@ -11,7 +11,10 @@ from app.entities.column_info import ColumnInfo
 from app.entities.example_info import ExampleInfo
 
 from app.core.log import logger
+from dotenv import load_dotenv
+load_dotenv()
 
+@traceable(run_type="chain", name="recall_value")
 async def recall_value(state: DataAgentState, runtime: Runtime[DataAgentContext]):
     writer = runtime.stream_writer
     writer({"type": "progress", "step": "召回字段取值", "status": "running"})
