@@ -5,26 +5,26 @@ tables:
     columns:
       - name: region_id
         role: primary_key
-        description: 地区唯一标识。
-        alias: [地区ID, 区域ID]
+        description: 省份和直辖市唯一标识。
+        alias: [地区编码, 区域代码, 地区编号]
         sync: false
 
       - name: province
         role: dimension
-        description: 订单所属的省份名称。
-        alias: [省份, 省, 所在省份]
+        description: 订单所属的省份或直辖市名称。
+        alias: [省份, 省, 所在省份，市]
         sync: true
 
       - name: region_name
         role: dimension
-        description: 订单所属的大区名称，如华东、华南等。
+        description: 订单所属的大地域区(一般包含多个省或直辖市)名称，如华东、华南等。
         alias: [地区, 区域, 大区]
         sync: true
 
       - name: country
         role: dimension
-        description: 地区所属国家名称。
-        alias: [国家, 国家名称]
+        description: 省份和直辖市所属国家名称。
+        alias: [国家, 国家名称, 国]
         sync: true
 
   - name: dim_customer
@@ -147,8 +147,8 @@ tables:
 
       - name: region_id
         role: foreign_key
-        description: 关联地区维度的外键。
-        alias: [地区ID, 区域ID]
+        description: 关联省份和直辖市维度的外键。
+        alias: [地区编码, 区域代码, 地区编号]
         sync: false
 
       - name: order_quantity
