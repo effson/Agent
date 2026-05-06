@@ -1,5 +1,5 @@
 import json
-
+import uuid
 from langchain_huggingface import HuggingFaceEndpointEmbeddings
 
 from app.agent.context import DataAgentContext
@@ -41,8 +41,17 @@ class QueryService:
             Dw_mysql_repository=self.dw_mysql_repository
         )
         state = DataAgentState(Query=query)
+        request_run_id = uuid.uuid4()
+        config = {
+            "run_id": request_run_id,
+            "configurable": {
+                "thread_id": "some_session_id"  # 线程 ID 建议保留
+            }
+        }
         try:
             async for chunk in graph.astream(input=state, context=context, stream_mode="custom"):
+                if isinstance(chunk, dict) and chunk.get("type") == "result":
+                    chunk["run_id"] = request_run_id
                 yield f"data: {json.dumps(chunk, ensure_ascii=False, default=str)}\n\n" # SSE格式发送数据
         except Exception as e:
             yield f"data: {json.dumps({'type': 'error', 'message': str(e)}, ensure_ascii=False, default=str)}\n\n" 
