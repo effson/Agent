@@ -42,3 +42,10 @@ LANGSMITH_PROJECT="Data Agent"
 <img width="1095" height="325" alt="image" src="https://github.com/user-attachments/assets/2b3f9f25-032e-4fb2-9cfc-5c9c8747fec9" />
 
 <img width="1269" height="562" alt="image" src="https://github.com/user-attachments/assets/31fc4814-a964-47bf-8b6d-198810b90aed" />
+
+### 6 更新
+#### 增加用户反馈功能
+
+<img width="736" height="274" alt="image" src="https://github.com/user-attachments/assets/115c6977-3d87-486c-8e6f-e924218b67da" />
+
+<img width="1142" height="187" alt="image" src="https://github.com/user-attachments/assets/c92a24e6-e179-4dc4-9e96-0ececba8e94b" />
